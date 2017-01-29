@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
 
+/*old
 public class CraftingRecipes {
 	public static void init() {
 		GameRegistry.addRecipe(new RecipeScrewDriver());
@@ -32,4 +33,12 @@ public class CraftingRecipes {
 		if (!ConfigValues.DISABLE_PHOTON_CANNON)
 			GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.PHOTON_CANNON), " BA", "CDB", "EC ", 'A', ModBlocks.LENS, 'B', ModBlocks.MIRROR, 'C', ModItems.REFLECTIVE_ALLOY, 'D', ModBlocks.ELECTRON_EXCITER, 'E', ModBlocks.SENSOR));
 	}
+}
+*/
+
+public class CraftingRecipes {
+	public static void init() {
+		GameRegistry.addRecipe(new RecipeScrewDriver());
+		
+		
 }
